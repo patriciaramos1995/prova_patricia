@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="br.fib.lp5.contatos" version="0.0.1" xmlns="http://www.w3.org/ns/wi" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Contatos</name>
+  <description>App de uso para contatos</description>
+  <author href="http://fibr.br" email="patriciasoramos@gmail.com">
+ Patricia
+</author>
+  <content src="index.html"/>
+  <preference name="Orientation" value="portrait"/>
+  <preference name="Fullscreen" value="true"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="SplashScreen" value="screen"/>
+  <preference name="SplashScreenDelay" value="1500"/>
+  <preference name="SplashShowOnlyFirstTime" value="false"/>
+  <engine name="android"/>
+  <engine name="ios"/>
+  <platform name="ios">
+    <splash src="resources\ios\splash\Default-568h@2x~iphone.png" width="640" height="1136"/>
+    <splash src="resources\ios\splash\Default-667h.png" width="750" height="1334"/>
+    <splash src="resources\ios\splash\Default-736h.png" width="1242" height="2208"/>
+    <splash src="resources\ios\splash\Default-Portrait@2x~ipad.png" width="1536" height="2048"/>
+    <splash src="resources\ios\splash\Default-Portrait~ipad.png" width="768" height="1024"/>
+    <splash src="resources\ios\splash\Default@2x~iphone.png" width="640" height="960"/>
+    <splash src="resources\ios\splash\Default~iphone.png" width="320" height="480"/>
+  </platform>
+  <platform name="android">
+    <icon src="resources\android\icon\drawable-ldpi-icon.png" density="ldpi"/>
+    <icon src="resources\android\icon\drawable-mdpi-icon.png" density="mdpi"/>
+    <icon src="resources\android\icon\drawable-hdpi-icon.png" density="hdpi"/>
+    <icon src="resources\android\icon\drawable-xhdpi-icon.png" density="xhdpi"/>
+    <icon src="resources\android\icon\drawable-xxhdpi-icon.png" density="xxhdpi"/>
+    <icon src="resources\android\icon\drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
+    <splash src="resources\android\splash\drawable-port-ldpi-screen.png" density="port-ldpi"/>
+    <splash src="resources\android\splash\drawable-port-mdpi-screen.png" density="port-mdpi"/>
+    <splash src="resources\android\splash\drawable-port-hdpi-screen.png" density="port-hdpi"/>
+    <splash src="resources\android\splash\drawable-port-xhdpi-screen.png" density="port-xhdpi"/>
+    <splash src="resources\android\splash\drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
+    <splash src="resources\android\splash\drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
+  </platform>
+  <icon src="resources\android\icon\drawable-xhdpi-icon.png"/>
+</widget>

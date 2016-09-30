@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=devicewidth,
+initial-scale=1">
+<meta charset="utf-8">
+<title>Contatos</title>
+<link rel="stylesheet" href="css/materialize.min.css">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<div class="topo-fixo z-depth-1">
+	<div class="valign-wrapper blue darken-2 white-text">
+		<h5 class="titulo">Contatos</h5>
+	</div>
+
+<ul class="tabs blue lighten-2">
+ <li class="tab col s6">
+	<button id="novoContact">Novo</button>
+ </li>
+ <li class="tab col s6">
+	<button id="listaContatos">Listagem</button>
+ </li>
+ <li class="tab col s6">
+	<button id="listaDuplicados">Listar Duplicados</button>
+ </li>
+</ul>
+<div id="novo" class="section">
+<form>
+Nome:<input type="text" id="nome" />
+Telefone:<input type="text" id="telefone"/>
+</form>
+<button id="novoContato">Novo contato</button>
+</div>
+<div id="contato" class="section">
+</div> 
+</div>
+ <script src="js/app.js"></script>
+ <script src="cordova.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.tabs .indicator {
+ background-color: blue darken-4;
+}
+
+.topo-fixo {
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 2;
+}
